@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["matt@polymathic.me"]
   spec.description   = "Rails wrapper for Gridle{.SCSS} grid library."
   spec.summary       = "Gridle is a set of complete and simple settings, mixins and classes that make the creation and usage of grid systems (even complex ones) really simple."
-  spec.homepage      = "https://github.com/olivierbossel/gridle"
+  spec.homepage      = "https://github.com/polymatt/gridle-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
