@@ -1,8 +1,12 @@
-require "gridle/rails/version"
+if defined? ::Rails
 
-module Gridle
-  module Rails
-    class Engine < ::Rails::Engine
+  require "gridle/rails/version"
+
+  module Gridle
+    module Rails
+      class Engine < ::Rails::Engine
+      end
     end
   end
+
 end
